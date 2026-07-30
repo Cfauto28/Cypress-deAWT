@@ -1,14 +1,2 @@
-# Cypress Lib Core
-
-The basic mod needed by CypressFabric equivalent to OSL or Fabric API but even more important
-
-## Known Problems caused by fabric
-
-- None as of now
-
-## Fixed problems
-
-- Sound and resource extraction doesn't work
-- Crash when creating a world
-- Crash when dying in freerun
-
+# Cypress deAWT
+A port of [Farn's deAWT mod for a1.1.2_01](https://github.com/FarnGitHub/Farn_Minecraft_Mod_Collection/tree/old/deAWT%20For%20a1.1.2_01%20to%20b1.4_01) (which is itself a port of [Gambac](https://modrinth.com/mod/gambac)) to CypressFabric
