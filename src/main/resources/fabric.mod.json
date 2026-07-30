@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "de_awt",
+	"version": "${version}",
+	"name": "DeAwt",
+	"description": "Remove Awt from your Cypress",
+	"authors": [
+		"Cfauto"
+	],
+	"contact": {
+		"sources": "https://github.com/Cfauto28/Cypress-Lib-Core"
+	},
+	"license": "LGPL-3.0-or-later",
+	"icon": "assets/de_awt/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"init": [
+		]
+	},
+	"mixins": [
+		"de_awt.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.0",
+		"minecraft": "1.0.0-alpha.1.0.16.5.20",
+		"cypress_lib_core": "*"
+	}
+}
