@@ -8,7 +8,7 @@
 		"Cfauto"
 	],
 	"contact": {
-		"sources": "https://github.com/Cfauto28/Cypress-Lib-Core"
+		"sources": "https://github.com/Cfauto28/Cypress-deAWT"
 	},
 	"license": "LGPL-3.0-or-later",
 	"icon": "assets/de_awt/icon.png",
