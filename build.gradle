@@ -2,18 +2,18 @@ buildscript {
     repositories {
         mavenCentral()
         flatDir {
-            dirs 'libs2'
+            dirs 'depLibs'
         }
     }
     dependencies {
-        classpath files('libs2/ploceus-1.17.local.jar')
-	//classpath files('libs2/fabric-loom-1.17.local.jar')
-        classpath files('libs2/signature-changer-1.0.0.jar')
-	classpath files('libs2/mapping-utils-0.19.2.jar')
-	classpath files('libs2/nester-1.4.0.jar')
-	classpath files('libs2/exceptor-1.1.0.jar')
-	classpath files('libs2/preen-1.1.0.jar')
-	classpath files('libs2/condor-1.4.5.jar')
+        classpath files('depLibs/ploceus-1.17.local.jar')
+	//classpath files('depLibs/fabric-loom-1.17.local.jar')
+        classpath files('depLibs/signature-changer-1.0.0.jar')
+	classpath files('depLibs/mapping-utils-0.19.2.jar')
+	classpath files('depLibs/nester-1.4.0.jar')
+	classpath files('depLibs/exceptor-1.1.0.jar')
+	classpath files('depLibs/preen-1.1.0.jar')
+	classpath files('depLibs/condor-1.4.5.jar')
 	classpath 'com.vdurmont:semver4j:3.1.0'
     }
 }
@@ -67,7 +67,7 @@ dependencies {
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
-	modImplementation files("libs2/cypress_lib_core-0.1+mca1.0.16.05_20.jar")
+	modImplementation files("depLibs/cypress_lib_core-0.1+mca1.0.16.05_20.jar")
 
 	exceptions ploceus.raven(project.raven_build)
 	signatures ploceus.sparrow(project.sparrow_build)
