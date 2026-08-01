@@ -1,0 +1,3 @@
+[submodule "CypressRepo"]
+	path = CypressRepo
+	url = https://github.com/Cfauto28/CypressRepo.git
