@@ -5,9 +5,9 @@
 	"name": "DeAwt",
 	"description": "Remove Awt from your Cypress",
 	"authors": [
-    "DanyGames2014",
-    "Farn",
-		"Cfauto"
+      "DanyGames2014",
+      "Farn",
+      "Cfauto"
 	],
 	"contact": {
 		"sources": "https://github.com/Cfauto28/Cypress-deAWT"
